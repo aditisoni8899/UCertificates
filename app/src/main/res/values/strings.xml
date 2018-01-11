@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ucertificates</string>
+    <string name="screenone">Home</string>
+    <string name="template">Select Template</string>
+    <string name="Downloadexcelsheet">Download Excel Sheet</string>
+    <string name="firstPoint">1.This application helps you to send digital certificates via mail to all the participants of Spandan (cultural fest of SVVV) ,Navarachana (national level project competetion organized by SVVV) or any Workshop organized by SVVV.</string>
+    <string name="secondPoint">2.You do not need to face any hassle for sending digital certificates to your participants.This app will do that work for you. On selecting send certificate button you will able to select template of your choice.After that you will see download excel sheet button and instructions to follow.</string>
+    <string name="thirdpoint">3.Now digital certificate of participants are just a click away from them.</string>
+    <string name="SelectExcelSheet">Send Certificates</string>
+    <string name="requestsent">Request Sent</string>
+
+</resources>

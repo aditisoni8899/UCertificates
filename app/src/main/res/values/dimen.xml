@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height">56dp</dimen>
+    <dimen name="width">250dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="textsize">18sp</dimen>
+    <dimen name="certificate_item_height">264dp</dimen>
+    <dimen name="certificate_imageheight">180dp</dimen>
+</resources>

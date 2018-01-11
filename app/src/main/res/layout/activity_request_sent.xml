@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tk.ucertificates.www.ucertificates.RequestSent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/textsize"
+            android:text="Request Sent Successfully!"
+            android:textColor="#05ba2c" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_check_circle_black_24dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="Your 'send certificate' request has been sent to the server successfully!.To check Status details visit to the Website 'www.ucertificates.tk'"
+        android:textColor="#a4a5a6"/>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/backtoHome"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/colorPrimary"
+        android:text="Back to Home"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize" />
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tk.ucertificates.www.ucertificates.DownloadExcelSheet">
+
+
+
+    <Button
+        android:id="@+id/downloadSpreadSheet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/colorPrimary"
+        android:text="Download SpreadSheet"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text=""
+                    android:id="@+id/certi_name"
+                    android:textAllCaps="true"
+                    android:textColor="#011115"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text="Details :-"
+                    android:textColor="#a4a5a6"
+                    android:textSize="@dimen/textsize"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin"
+                    android:text="The above file contains the following headings :-"
+                    android:textColor="#a4a5a6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin"
+                    android:layout_marginTop="@dimen/margin"
+                    android:text="- Name\n- Email \n- .......\n- .......\n- ......."
+                    android:id="@+id/name"
+                    android:textColor="#a4a5a6" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text="Please fill the Details in the file,save it,and then come back to this app and press next"
+                    android:textColor="#a4a5a6" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/colorPrimary"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize" />
+
+
+</LinearLayout>

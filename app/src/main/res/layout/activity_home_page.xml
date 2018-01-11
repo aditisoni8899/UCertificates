@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tk.ucertificates.www.ucertificates.HomePage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text="Introduction"
+                    android:textColor="#a4a5a6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin"
+                    android:text="@string/firstPoint"
+                    android:textColor="#a4a5a6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin"
+                    android:layout_marginTop="@dimen/margin"
+                    android:text="@string/secondPoint"
+                    android:textColor="#a4a5a6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text="@string/thirdpoint"
+                    android:textColor="#a4a5a6" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/send_new_certificates"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/colorPrimary"
+        android:text="Send New Certificates"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize" />
+
+    <Button
+        android:id="@+id/logou_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@android:color/white"
+        android:text="Logout"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/textsize" />
+
+</LinearLayout>
+
